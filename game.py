@@ -33,6 +33,7 @@ def single_player():
             if inp=='Y':
                 single_player()
             else:
+                print('Game quit')
                 break
         else:
             print('loss')
@@ -42,4 +43,4 @@ n=int(input("Enter 1 to play\nEnter 2 to quit------>"))
 if n==1:
     single_player()
 else:
-    print('bye')
+    print('Game quit')
